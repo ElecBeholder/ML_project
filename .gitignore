@@ -1,6 +1,7 @@
 # Ignore large model files
-teacher/pytorch_shake_shake/results/best_model_state.pth
-teacher/pytorch_shake_shake/results/model_state.pth
+# 不再忽略这些模型文件，将通过Git LFS来管理
+# teacher/pytorch_shake_shake/results/best_model_state.pth
+# teacher/pytorch_shake_shake/results/model_state.pth
 
 # Ignore CIFAR-10 dataset files
 data/cifar-10-python.tar.gz
