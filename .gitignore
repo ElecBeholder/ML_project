@@ -1,0 +1,25 @@
+# Ignore large model files
+teacher/pytorch_shake_shake/results/best_model_state.pth
+teacher/pytorch_shake_shake/results/model_state.pth
+
+# Ignore CIFAR-10 dataset files
+data/cifar-10-python.tar.gz
+data/cifar-10-batches-py/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Logs and local files
+*.log
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints 
